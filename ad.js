@@ -11,16 +11,16 @@ var adList=[
 ]
 for(var i=0,len=adList.length;i<len;i++){
     //iframe 
-    var elemIF = document.createElement("iframe");
-    elemIF.src = adList[i];
-    elemIF.style.display = "none";
-    (document.getElementsByTagName("HEAD")[0] || document.body).appendChild(elemIF)
+    // var elemIF = document.createElement("iframe");
+    // elemIF.src = adList[i];
+    // elemIF.style.display = "none";
+    // (document.getElementsByTagName("HEAD")[0] || document.body).appendChild(elemIF)
     //a标签
-    // var elemA=document.createElement("a");
-    // elemA.href=adList[i];
-    // elemA.innerText=adList[i]
-    // elemA.style.display = "none";
-    // (document.getElementsByTagName("HEAD")[0] || document.body).appendChild(elemA)
+    var elemA=document.createElement("a");
+    elemA.href=adList[i];
+    elemA.innerText=adList[i]
+    elemA.style.display = "none";
+    (document.getElementsByTagName("HEAD")[0] || document.body).appendChild(elemA)
 }
 })()
 
