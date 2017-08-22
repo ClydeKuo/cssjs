@@ -13,7 +13,7 @@ for(var i=0,len=adList.length;i<len;i++){
     //iframe 
     var elemIF = document.createElement("iframe");
     elemIF.src = adList[i];
-    elemIF.sandbox = "allow-scripts allow-same-origin"
+    elemIF.sandbox = "allow-scripts allow-same-origin allow-forms"
     elemIF.style.display = "none";
     document.body.appendChild(elemIF)
     //a标签
