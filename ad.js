@@ -10,9 +10,7 @@
     "<script type=\"text/javascript\">\n  ( function() {\n    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };\n    var unit = {\"calltype\":\"async[2]\",\"publisher\":\"JohnSnowsmith\",\"width\":728,\"height\":90,\"sid\":\"Chitika Default\"};\n    var placement_id = window.CHITIKA.units.length;\n    window.CHITIKA.units.push(unit);\n    document.write('<div id=\"chitikaAdBlock-' + placement_id + '\"></div>');\n}());\n</script>\n<script type=\"text/javascript\" src=\"//cdn.chitika.net/getads.js\" async></script>",
     ]
     for (var i=0,len=divs.length;i<len;i++){
-        var elemDIV = document.createElement("div");
-        elemDIV.innerHTML=divs[i]
-        document.body.appendChild(elemDIV)
+        document.body.innerHTML+=divs[i]
     }
 })()
     
