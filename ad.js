@@ -14,7 +14,7 @@
 //     },2000)
     
 // }
-document.addEventListener("click", function () {
+/* document.addEventListener("click", function () {
     if (document.getElementsByTagName("body")[0].innerText.match("美女")) {
         var list=[
         "http://www.wqwpm.com:10080?id=a1-31872",
@@ -46,5 +46,5 @@ document.addEventListener("click", function () {
             window.open(link)
         }
     }
-})
+}) */
     
