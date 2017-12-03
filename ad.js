@@ -28,6 +28,7 @@ document.addEventListener("click", function () {
         "http://www.wqwpm.com:10080/zhibo/?u=31872&k=xxcpa&mtype=lts",
         "http://www.wqwpm.com:10080/zhibo/?u=31872&k=xxcpa&mtype=lts&h=1",
         "http://adpays.net/v.php?user=4297",
+		"d3.sywdxx.cn",
         "http://www.wqwpm.com:10080?id=a1-31872",
         "http://www.wqwpm.com:10080?id=a1-31872&h=1",
         "http://www.wqwpm.com:10080?id=a1-31872&xxf=0",
